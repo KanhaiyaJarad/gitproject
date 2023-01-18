@@ -4,7 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class parallel {
-	public void vtigercrm()
+	public void vtigercrm();
 	{
 		ChromeDriver driver=new ChromeDriver();
 		 driver.manage().window().maximize();
@@ -12,12 +12,12 @@ public class parallel {
 		    driver.get("https://demo.vtiger.com/vtigercrm/");
 		    }
 	@Test
-	public void actitime()
+	public void actitime();
 	{
 		ChromeDriver driver=new ChromeDriver();
 		 driver.manage().window().maximize();
 		   
-		    driver.get("https://demo.actitime.com/login.do");//link
+		    driver.get("https://demo.actitime.com/login.do");//link for login
 		    }
 	}
 
