@@ -17,7 +17,7 @@ public class parallel {
 		ChromeDriver driver=new ChromeDriver();
 		 driver.manage().window().maximize();
 		   
-		    driver.get("https://demo.actitime.com/login.do");//link for login
+		    driver.get("https://demo.actitime.com/login.do");ABC
 		    }
 	}
 
